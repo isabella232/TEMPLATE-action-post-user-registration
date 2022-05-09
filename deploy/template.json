@@ -1,0 +1,10 @@
+{
+  "name": "action-post-user-registration-integration-test",
+  "runtime": "node16",
+  "supported_triggers": [
+    {
+      "id": "post-user-registration",
+      "version": "v2"
+    }
+  ]
+}
