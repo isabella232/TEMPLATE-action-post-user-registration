@@ -1,6 +1,6 @@
 # Post User Registration Action Integration Template
 
-This template is used to create Action Integrations in the Post User Registration flow. This flow runs asynchronously when a user registers a new account for an Auth0-managed connection (like username/password or passwordless) so it can be used for event reporting but not blocking account creation.
+This template is used to create Action Integrations in the Post User Registration flow. This flow runs asynchronously when a user registers a new account for a Database or Passwordless Connection so it can be used for event reporting but not blocking account creation.
 
 ## Documentation
 
