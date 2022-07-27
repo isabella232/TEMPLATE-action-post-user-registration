@@ -3,7 +3,8 @@ const { makeEventMock } = require("../__mocks__/event-post-user-registration");
 const { onExecutePostUserRegistration } = require("./integration.action");
 
 describe("Action integration", () => {
-  let consoleLogMock, eventMock;
+  let consoleLogMock;
+  let eventMock;
 
   beforeEach(() => {
     eventMock = makeEventMock();
