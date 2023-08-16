@@ -109,6 +109,7 @@ Before submitting your integration, it's crucial to ensure that it's built and t
 The commands below require Docker to be installed and running on your local machine (though no direct Docker experience is necessary). Download and install Docker [using these steps for your operating system](https://docs.docker.com/get-docker/). 
 
 **Please note:** When you run the tests, they are executed against the **Current Active LTS of Node.js**.
+
 * `make test` - this will run the Jest spec file explained above, along with a few other integrity checks. This check is run in a GitHub Action located in `.github/workflows/test.yaml`.
 * `make lint` - this will check and format your JS code according to our recommendations. This check is run in a GitHub Action located in `.github/workflows/lint.yaml`.
 * `make deploy_init` - use this command to initialize deployments to a test tenant. You will need to [create a machine-to-machine application](https://auth0.com/docs/get-started/auth0-overview/create-applications/machine-to-machine-apps) authorized for the Management API with permissions `read:actions`, `update:actions`, `delete:actions`, and `create:actions`.
